@@ -1,0 +1,84 @@
+@import 'reset';
+@import url("https://use.typekit.net/uti3tct.css");
+
+//Fonts
+$font-primary: Helvetica, sans-serif;
+
+//Colour Pallette
+$green: #53C9B4;
+$orange: #C9653E;
+$charcoal: rgb(58, 58, 58);
+
+//Universal Styles
+body {
+    font-family: "chalet-london-sixty";
+}
+
+a {
+    font: 100% $font-primary;
+    color: $charcoal;
+    text-decoration: none;
+}
+
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: auto;
+    height: 100px;
+}
+
+.wrapper {
+    margin: auto;
+    margin-top: 20%;
+    max-width: 300px;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.icons {
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    bottom: 0;
+
+    a {
+        padding: 10px;
+    }
+
+    a.orange {
+        transition: .25s;
+        &:hover {
+            color: $orange;
+        }
+    }
+
+    a.green {
+        transition: .25s;
+        &:hover {
+            color: $green;
+        }
+    }
+}
+
+p {
+    text-align: center;
+}
+
+#email {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 350px) {
+    .wrapper {
+        max-width: 210px;
+    }
+    img {
+        width: 200px;
+        height: auto;
+    }
+}

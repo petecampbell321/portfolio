@@ -1,0 +1,63 @@
+@import url("https://use.typekit.net/uti3tct.css");
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "chalet-london-sixty"; }
+
+a {
+  font: 100% Helvetica, sans-serif;
+  color: #3a3a3a;
+  text-decoration: none; }
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: auto;
+  height: 100px; }
+
+.wrapper {
+  margin: auto;
+  margin-top: 20%;
+  max-width: 300px; }
+
+.logo {
+  margin: 0 auto; }
+
+.icons {
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+  font-size: 30px;
+  bottom: 0; }
+  .icons a {
+    padding: 10px; }
+  .icons a.orange {
+    transition: .25s; }
+    .icons a.orange:hover {
+      color: #C9653E; }
+  .icons a.green {
+    transition: .25s; }
+    .icons a.green:hover {
+      color: #53C9B4; }
+
+p {
+  text-align: center; }
+
+#email {
+  padding-top: 50px; }
+
+@media screen and (max-width: 350px) {
+  .wrapper {
+    max-width: 210px; }
+
+  img {
+    width: 200px;
+    height: auto; } }
+
+/*# sourceMappingURL=styles.css.map */
