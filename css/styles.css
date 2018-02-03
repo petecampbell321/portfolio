@@ -7,10 +7,10 @@ ol {
   padding: 0; }
 
 body {
-  font-family: "chalet-london-sixty"; }
+  font-family: "chalet-london-sixty";
+  font-size: 1rem; }
 
 a {
-  font: 100% Helvetica, sans-serif;
   color: #3a3a3a;
   text-decoration: none; }
 
@@ -29,9 +29,12 @@ img {
 .logo {
   margin: 0 auto; }
 
+.text {
+  font-size: 1.5em; }
+
 .icons {
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 25%;
   text-align: center;
   font-size: 30px;
   bottom: 0; }
@@ -54,6 +57,7 @@ p {
 
 @media screen and (max-width: 350px) {
   .wrapper {
+    margin: 0;
     max-width: 210px; }
 
   img {

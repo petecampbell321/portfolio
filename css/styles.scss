@@ -12,10 +12,10 @@ $charcoal: rgb(58, 58, 58);
 //Universal Styles
 body {
     font-family: "chalet-london-sixty";
+    font-size: 1rem;
 }
 
 a {
-    font: 100% $font-primary;
     color: $charcoal;
     text-decoration: none;
 }
@@ -39,9 +39,13 @@ img {
     margin: 0 auto;
 }
 
+.text {
+    font-size: 1.5em;
+}
+
 .icons {
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 25%;
     text-align: center;
     font-size: 30px;
     bottom: 0;
@@ -75,6 +79,7 @@ p {
 
 @media screen and (max-width: 350px) {
     .wrapper {
+        margin: 0;
         max-width: 210px;
     }
     img {
