@@ -9,7 +9,6 @@ $green: #53C9B4;
 $orange: #C9653E;
 $charcoal: rgb(58, 58, 58);
 
-//Universal Styles
 body {
     font-family: "chalet-london-sixty";
     font-size: 1rem;
@@ -19,7 +18,6 @@ a {
     color: $charcoal;
     text-decoration: none;
 }
-
 
 img {
     margin-left: auto;
@@ -50,6 +48,10 @@ img {
     font-size: 30px;
     bottom: 0;
 
+    .row-2 {
+        padding-top: 10%;
+    }
+
     a {
         padding: 10px;
     }
@@ -77,10 +79,10 @@ p {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .wrapper {
         margin: 0;
-        max-width: 210px;
+        max-width: 0;
     }
     img {
         width: 200px;
